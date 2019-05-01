@@ -168,11 +168,14 @@ func (s *SPVCon) IngestBlock(m *wire.MsgBlock) {
 		s.RawBlockSender <- m
 	}
 
-	// This takes care of the whole rawblockactive thing if we just
-	// replace the current channel with this new one
-	for i := range s.RawBlockDistribute {
-		s.RawBlockDistribute[i] <- m
-	}
+	// This is in a goroutine because we don't want one of them to block the entire chainhook
+	go func() {
+		// This takes care of the whole rawblockactive thing if we just
+		// replace the current channel with this new one
+		for i := range s.RawBlockDistribute {
+			s.RawBlockDistribute[i] <- m
+		}
+	}()
 
 	ok := BlockOK(*m) // check block self-consistency
 	if !ok {

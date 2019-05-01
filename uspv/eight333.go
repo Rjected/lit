@@ -267,11 +267,14 @@ func (s *SPVCon) IngestHeaders(m *wire.MsgHeaders) (bool, error) {
 			return false, err
 		}
 
-		// CurrentHeightChan is "How we tell the wallet that a block has come in"
-		// so I guess this applies here as well.
-		for i := range s.HeightDistribute {
-			s.HeightDistribute[i] <- reorgHeight
-		}
+		// This is in a goroutine because we don't want one of them to block the entire chainhook
+		go func() {
+			// CurrentHeightChan is "How we tell the wallet that a block has come in"
+			// so I guess this applies here as well.
+			for i := range s.HeightDistribute {
+				s.HeightDistribute[i] <- reorgHeight
+			}
+		}()
 
 		// also we need to tell the upstream modules that a reorg happened
 		s.CurrentHeightChan <- reorgHeight
