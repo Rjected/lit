@@ -90,21 +90,24 @@ func (nd *LitNode) OfferHTLC(qc *Qchan, amt uint32, RHash [32]byte, locktime uin
 	}
 
 	qc.State.Data = data
-
-	qc.State.InProgHTLC = new(HTLC)
-	qc.State.InProgHTLC.Idx = qc.State.HTLCIdx
-	qc.State.InProgHTLC.Incoming = false
-	qc.State.InProgHTLC.Amt = int64(amt)
-	qc.State.InProgHTLC.RHash = RHash
-	qc.State.InProgHTLC.Locktime = locktime
-	qc.State.InProgHTLC.TheirHTLCBase = qc.State.NextHTLCBase
-
-	qc.State.InProgHTLC.KeyGen.Depth = 5
-	qc.State.InProgHTLC.KeyGen.Step[0] = 44 | 1<<31
-	qc.State.InProgHTLC.KeyGen.Step[1] = qc.Coin() | 1<<31
-	qc.State.InProgHTLC.KeyGen.Step[2] = UseHTLCBase
-	qc.State.InProgHTLC.KeyGen.Step[3] = qc.State.HTLCIdx | 1<<31
-	qc.State.InProgHTLC.KeyGen.Step[4] = qc.Idx() | 1<<31
+	qc.State.InProgHTLC = &HTLC{
+		Idx:           qc.State.HTLCIdx,
+		Incoming:      false,
+		Amt:           int64(amt),
+		RHash:         RHash,
+		Locktime:      locktime,
+		TheirHTLCBase: qc.State.NextHTLCBase,
+		KeyGen: portxo.KeyGen{
+			Depth: 5,
+			Step: [5]uint32{
+				44 | 1<<31,
+				qc.Coin() | 1<<31,
+				UseHTLCBase,
+				qc.State.HTLCIdx | 1<<31,
+				qc.Idx() | 1<<31,
+			},
+		},
+	}
 
 	qc.State.InProgHTLC.MyHTLCBase, _ = nd.GetUsePub(qc.State.InProgHTLC.KeyGen,
 		UseHTLCBase)
