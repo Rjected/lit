@@ -3,7 +3,7 @@ package watchtower
 import (
 	"fmt"
 
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/lnutil"
 )
 
 // IdxSigs are 74 bytes

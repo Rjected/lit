@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/btcutil/txscript"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/txscript"
+	"github.com/rjected/lit/wire"
 )
 
 // CommitScript is the script for 0.13.1: OP_CHECKSIG turned into OP_CHECSIGVERIFY

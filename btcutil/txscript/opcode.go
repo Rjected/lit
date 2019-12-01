@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/crypto/fastsha256"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/crypto/ripemd160"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/crypto/fastsha256"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/crypto/ripemd160"
+	"github.com/rjected/lit/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

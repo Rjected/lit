@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 )
 
 var (

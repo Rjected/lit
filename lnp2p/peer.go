@@ -1,9 +1,9 @@
 package lnp2p
 
 import (
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/lncore"
-	"github.com/mit-dci/lit/lndc"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/lncore"
+	"github.com/rjected/lit/lndc"
 )
 
 // A Peer is a remote client that's somehow connected to us.

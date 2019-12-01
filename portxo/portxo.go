@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/wire"
 )
 
 type TxoMode uint8

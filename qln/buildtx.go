@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/lnutil"
 
-	"github.com/mit-dci/lit/btcutil/txsort"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/txsort"
+	"github.com/rjected/lit/wire"
 )
 
 // GetStateIdxFromTx returns the state index from a commitment transaction.

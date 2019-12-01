@@ -2,7 +2,7 @@ package lnp2p
 
 import (
 	"fmt"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 	"sync"
 )
 

@@ -7,8 +7,8 @@ package btcutil
 import (
 	"hash"
 
-	"github.com/mit-dci/lit/crypto/fastsha256"
-	"github.com/mit-dci/lit/crypto/ripemd160"
+	"github.com/rjected/lit/crypto/fastsha256"
+	"github.com/rjected/lit/crypto/ripemd160"
 )
 
 // Calculate the hash of hasher over buf.

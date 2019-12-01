@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
 )
 
 func TestChatMsg(t *testing.T) {

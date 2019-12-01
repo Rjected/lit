@@ -11,10 +11,10 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/btcutil/database"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/btcutil/database"
+	"github.com/rjected/lit/wire"
 )
 
 var (

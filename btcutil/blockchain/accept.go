@@ -4,7 +4,7 @@
 
 package blockchain
 
-import "github.com/mit-dci/lit/btcutil"
+import "github.com/rjected/lit/btcutil"
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if
 // accepted, returns whether or not it is on the main chain.  It performs

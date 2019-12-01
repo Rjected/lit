@@ -3,8 +3,8 @@ package litrpc
 import (
 	"encoding/hex"
 
-	"github.com/mit-dci/lit/dlc"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/dlc"
+	"github.com/rjected/lit/lnutil"
 )
 
 type ListOraclesArgs struct {

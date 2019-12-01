@@ -3,7 +3,7 @@ package nat
 import (
 	"context"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
 	UpnP "github.com/NebulousLabs/go-UpnP"
 )

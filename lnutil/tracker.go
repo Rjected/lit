@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/logging"
 	"golang.org/x/net/proxy"
 )
 

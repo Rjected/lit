@@ -3,9 +3,9 @@ package qln
 import (
 	"fmt"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
 )
 
 /*

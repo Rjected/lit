@@ -1,6 +1,6 @@
 package qln
 
-import "github.com/mit-dci/lit/btcutil/hdkeychain"
+import "github.com/rjected/lit/btcutil/hdkeychain"
 
 const (
 	UseWallet             = 0 | hdkeychain.HardenedKeyStart

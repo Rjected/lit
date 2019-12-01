@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/wire"
 )
 
 // DlcContractStatus is an enumeration containing the various statuses a

@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/btcutil/txscript"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/sig64"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/txscript"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/sig64"
+	"github.com/rjected/lit/wire"
 )
 
 /*

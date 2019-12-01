@@ -16,11 +16,11 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/btcutil/base58"
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/crypto/koblitz"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/btcutil/base58"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/crypto/koblitz"
 	"math/big"
 )
 

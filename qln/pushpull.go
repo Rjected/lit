@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/portxo"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/portxo"
 )
 
 // Grab the coins that are rightfully yours! Plus some more.

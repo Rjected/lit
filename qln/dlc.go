@@ -3,16 +3,16 @@ package qln
 import (
 	"fmt"
 
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/btcutil/txscript"
-	"github.com/mit-dci/lit/btcutil/txsort"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/dlc"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/portxo"
-	"github.com/mit-dci/lit/sig64"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/btcutil/txscript"
+	"github.com/rjected/lit/btcutil/txsort"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/dlc"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/portxo"
+	"github.com/rjected/lit/sig64"
+	"github.com/rjected/lit/wire"
 )
 
 func (nd *LitNode) AddContract() (*lnutil.DlcContract, error) {

@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/mit-dci/lit/btcutil/txscript"
-	"github.com/mit-dci/lit/crypto/koblitz"
+	"github.com/rjected/lit/btcutil/txscript"
+	"github.com/rjected/lit/crypto/koblitz"
 )
 
 // -----------------------------------------------------------------------------

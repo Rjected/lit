@@ -3,10 +3,10 @@ package qln
 import (
 	"time"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/bech32"
-	"github.com/mit-dci/lit/crypto/fastsha256"
+	"github.com/rjected/lit/bech32"
+	"github.com/rjected/lit/crypto/fastsha256"
 )
 
 func removeDuplicates(inputArr []uint32) []uint32 {

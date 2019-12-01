@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/chzyer/readline"
-	"github.com/mit-dci/lit/litrpc"
+	"github.com/rjected/lit/litrpc"
 )
 
 func (lc *litAfClient) completePeers(line string) []string {

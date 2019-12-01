@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/uspv"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/uspv"
 )
 
 type Watcher interface {

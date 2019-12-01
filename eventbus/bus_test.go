@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 )
 
 func TestBusSimple(t *testing.T) {

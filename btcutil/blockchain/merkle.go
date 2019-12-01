@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/btcutil/txscript"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/btcutil/txscript"
 )
 
 const (

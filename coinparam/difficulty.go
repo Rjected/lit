@@ -5,8 +5,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/wire"
 )
 
 /* calcDiff returns a bool given two block headers.  This bool is

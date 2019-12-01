@@ -3,7 +3,7 @@ package portxo
 import (
 	"fmt"
 
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/wire"
 )
 
 // ExtractFromTx returns a portxo from a tx and index.

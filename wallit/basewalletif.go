@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/portxo"
-	"github.com/mit-dci/lit/uspv"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/portxo"
+	"github.com/rjected/lit/uspv"
+	"github.com/rjected/lit/wire"
 )
 
 /*

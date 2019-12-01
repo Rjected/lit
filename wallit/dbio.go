@@ -5,16 +5,16 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/btcutil/blockchain"
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/portxo"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/btcutil/blockchain"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/portxo"
+	"github.com/rjected/lit/wire"
 )
 
 // const strings for db usage

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/lnutil"
 )
 
 // const strings for db usage

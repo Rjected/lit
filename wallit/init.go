@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/btcutil/hdkeychain"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/powless"
-	"github.com/mit-dci/lit/uspv"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/hdkeychain"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/powless"
+	"github.com/rjected/lit/uspv"
+	"github.com/rjected/lit/wire"
 )
 
 func NewWallit(

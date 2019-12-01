@@ -7,10 +7,10 @@ package txscript
 import (
 	"errors"
 	"fmt"
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input

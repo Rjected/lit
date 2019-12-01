@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
 	"github.com/howeyc/gopass"
 	"golang.org/x/crypto/nacl/secretbox"

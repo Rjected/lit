@@ -12,7 +12,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
 )
 
 const (

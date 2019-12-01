@@ -14,7 +14,7 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/mit-dci/lit/crypto/fastsha256"
+	"github.com/rjected/lit/crypto/fastsha256"
 )
 
 // Errors returned by canonicalPadding.

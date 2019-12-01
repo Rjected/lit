@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackpal/gateway"
 	natpmp "github.com/jackpal/go-nat-pmp"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 )
 
 var (

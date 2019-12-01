@@ -3,12 +3,12 @@ package litrpc
 import (
 	"fmt"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/portxo"
-	"github.com/mit-dci/lit/qln"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/portxo"
+	"github.com/rjected/lit/qln"
 )
 
 type ChannelInfo struct {

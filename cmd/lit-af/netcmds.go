@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mit-dci/lit/qln"
+	"github.com/rjected/lit/qln"
 
 	"github.com/fatih/color"
-	"github.com/mit-dci/lit/litrpc"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/litrpc"
+	"github.com/rjected/lit/lnutil"
 )
 
 var sayCommand = &Command{

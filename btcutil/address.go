@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"errors"
-	"github.com/mit-dci/lit/btcutil/base58"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/crypto/ripemd160"
+	"github.com/rjected/lit/btcutil/base58"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/crypto/ripemd160"
 )
 
 var (

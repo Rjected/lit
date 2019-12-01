@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mit-dci/lit/bech32"
-	"github.com/mit-dci/lit/btcutil/base58"
-	"github.com/mit-dci/lit/crypto/fastsha256"
+	"github.com/rjected/lit/bech32"
+	"github.com/rjected/lit/btcutil/base58"
+	"github.com/rjected/lit/crypto/fastsha256"
 )
 
 // Lit addresses use the bech32 format, but sometimes omit the checksum!

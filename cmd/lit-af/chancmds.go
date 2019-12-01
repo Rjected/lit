@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/fatih/color"
-	"github.com/mit-dci/lit/litrpc"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/litrpc"
+	"github.com/rjected/lit/lnutil"
 )
 
 var fundCommand = &Command{

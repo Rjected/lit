@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
 )
 
 // createDefaultConfigFile creates a config file  -- only call this if the

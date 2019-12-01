@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/dlc"
-	"github.com/mit-dci/lit/eventbus"
-	"github.com/mit-dci/lit/lncore"
-	"github.com/mit-dci/lit/lndc"
-	"github.com/mit-dci/lit/lnp2p"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/watchtower"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/dlc"
+	"github.com/rjected/lit/eventbus"
+	"github.com/rjected/lit/lncore"
+	"github.com/rjected/lit/lndc"
+	"github.com/rjected/lit/lnp2p"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/watchtower"
+	"github.com/rjected/lit/wire"
 )
 
 /*

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/wire"
 	"golang.org/x/net/proxy"
 )
 

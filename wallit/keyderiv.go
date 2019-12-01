@@ -1,10 +1,10 @@
 package wallit
 
 import (
-	"github.com/mit-dci/lit/btcutil"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/logging"
-	"github.com/mit-dci/lit/portxo"
+	"github.com/rjected/lit/btcutil"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/logging"
+	"github.com/rjected/lit/portxo"
 )
 
 /*

@@ -1,9 +1,9 @@
 package lnp2p
 
 import (
-	"github.com/mit-dci/lit/eventbus"
-	"github.com/mit-dci/lit/lndc"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/eventbus"
+	"github.com/rjected/lit/lndc"
+	"github.com/rjected/lit/logging"
 )
 
 type listeningthread struct {

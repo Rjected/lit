@@ -3,12 +3,12 @@ package litrpc
 import (
 	"strings"
 
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/logging"
 
-	"github.com/mit-dci/lit/bech32"
-	"github.com/mit-dci/lit/btcutil/base58"
-	"github.com/mit-dci/lit/coinparam"
-	"github.com/mit-dci/lit/lnutil"
+	"github.com/rjected/lit/bech32"
+	"github.com/rjected/lit/btcutil/base58"
+	"github.com/rjected/lit/coinparam"
+	"github.com/rjected/lit/lnutil"
 )
 
 /*

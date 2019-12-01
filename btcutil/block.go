@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mit-dci/lit/btcutil/chaincfg/chainhash"
-	"github.com/mit-dci/lit/wire"
+	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/rjected/lit/wire"
 )
 
 // OutOfRangeError describes an error due to accessing an element that is out

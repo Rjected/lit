@@ -5,11 +5,11 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/mit-dci/lit/bech32"
-	"github.com/mit-dci/lit/consts"
-	"github.com/mit-dci/lit/crypto/fastsha256"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/bech32"
+	"github.com/rjected/lit/consts"
+	"github.com/rjected/lit/crypto/fastsha256"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
 )
 
 func (nd *LitNode) PayMultihop(dstLNAdr string, originCoinType uint32, destCoinType uint32, amount int64) (bool, error) {

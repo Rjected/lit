@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/lnutil"
-	"github.com/mit-dci/lit/logging"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/lnutil"
+	"github.com/rjected/lit/logging"
 )
 
 // Conn is an implementation of net.Conn which enforces an authenticated key

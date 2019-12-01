@@ -1,10 +1,10 @@
 package lnp2p
 
 import (
-	"github.com/mit-dci/lit/bech32"
-	"github.com/mit-dci/lit/crypto/fastsha256"
-	"github.com/mit-dci/lit/crypto/koblitz"
-	"github.com/mit-dci/lit/lncore"
+	"github.com/rjected/lit/bech32"
+	"github.com/rjected/lit/crypto/fastsha256"
+	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/rjected/lit/lncore"
 	"golang.org/x/net/proxy"
 	"net"
 	"strings"
