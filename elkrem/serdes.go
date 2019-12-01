@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
 )
 
 /* Serialization and Deserialization methods for the Elkrem structs.

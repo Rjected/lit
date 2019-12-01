@@ -1,8 +1,8 @@
 package qln
 
 import (
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/eventbus"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/eventbus"
 )
 
 // ChannelStateUpdateEvent is a struct for a channel state update event

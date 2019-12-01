@@ -3,9 +3,9 @@ package qln
 import (
 	"fmt"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 /*

@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/wire"
 )
 
 type TxoMode uint8

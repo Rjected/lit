@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/crypto/scrypt"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
 )
 
 // BlockVersion is the current latest supported block version.

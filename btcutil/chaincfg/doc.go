@@ -23,10 +23,10 @@
 //  import (
 //          "flag"
 //          "fmt"
-//          "github.com/rjected/lit/logging"
+//          "github.com/Rjected/lit/logging"
 //
-//          "github.com/rjected/lit/btcutil"
-//          "github.com/rjected/lit/btcutil/chaincfg"
+//          "github.com/Rjected/lit/btcutil"
+//          "github.com/Rjected/lit/btcutil/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

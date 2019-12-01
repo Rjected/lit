@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/crypto/fastsha256"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/crypto/ripemd160"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/crypto/ripemd160"
+	"github.com/Rjected/lit/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

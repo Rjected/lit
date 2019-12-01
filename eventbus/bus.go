@@ -2,7 +2,7 @@ package eventbus
 
 import (
 	"fmt"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 	"sync"
 )
 

@@ -3,7 +3,7 @@ package nat
 import (
 	"context"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
 	UpnP "github.com/NebulousLabs/go-UpnP"
 )

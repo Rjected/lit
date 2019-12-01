@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/btcutil/blockchain"
-	"github.com/rjected/lit/btcutil/txscript"
-	"github.com/rjected/lit/crypto/fastsha256"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/btcutil/blockchain"
+	"github.com/Rjected/lit/btcutil/txscript"
+	"github.com/Rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/wire"
 )
 
 // TxAndHeight is just a tx, and the height at which it was confirmed.

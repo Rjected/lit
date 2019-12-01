@@ -7,16 +7,16 @@ import (
 	"sync"
 
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/btcutil/blockchain"
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/btcutil/hdkeychain"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/uspv"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/btcutil/blockchain"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/hdkeychain"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/uspv"
+	"github.com/Rjected/lit/wire"
 )
 
 // The Wallit is lit's main wallet struct.  It's got the root key, the dbs, and

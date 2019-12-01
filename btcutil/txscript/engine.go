@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/rjected/lit/crypto/fastsha256"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

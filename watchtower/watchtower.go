@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/uspv"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/uspv"
 )
 
 type Watcher interface {

@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rjected/lit/bech32"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/lncore"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/qln"
+	"github.com/Rjected/lit/bech32"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/lncore"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/qln"
 )
 
 // ------------------------- testlog

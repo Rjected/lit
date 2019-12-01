@@ -12,12 +12,12 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/btcutil/blockchain"
+	"github.com/Rjected/lit/btcutil/blockchain"
 
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/wire"
 )
 
 func min(a, b int) int {

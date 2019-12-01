@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/coinparam"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/coinparam"
 )
 
 func (u *PorTxo) AddWIF(w btcutil.WIF) error {

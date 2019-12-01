@@ -2,7 +2,7 @@ package lnp2p
 
 import (
 	"fmt"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 	"sync"
 )
 

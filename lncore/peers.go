@@ -3,7 +3,7 @@ package lncore
 import (
 	"fmt"
 
-	"github.com/rjected/lit/bech32"
+	"github.com/Rjected/lit/bech32"
 )
 
 // LnAddr is just a bech32-encoded pubkey.

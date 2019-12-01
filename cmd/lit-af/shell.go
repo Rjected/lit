@@ -10,10 +10,10 @@ import (
 	"net/http"
 
 	"github.com/fatih/color"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/consts"
-	"github.com/rjected/lit/litrpc"
-	"github.com/rjected/lit/lnutil"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/consts"
+	"github.com/Rjected/lit/litrpc"
+	"github.com/Rjected/lit/lnutil"
 )
 
 var lsCommand = &Command{

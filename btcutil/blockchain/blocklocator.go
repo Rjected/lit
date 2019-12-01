@@ -5,9 +5,9 @@
 package blockchain
 
 import (
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/btcutil/database"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/database"
+	"github.com/Rjected/lit/wire"
 )
 
 // BlockLocator is used to help locate a specific block.  The algorithm for

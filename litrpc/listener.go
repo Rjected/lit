@@ -10,12 +10,12 @@ import (
 	"net/rpc/jsonrpc"
 	"strings"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
 	"golang.org/x/net/websocket"
 
-	"github.com/rjected/lit/qln"
-	"github.com/rjected/lit/webui"
+	"github.com/Rjected/lit/qln"
+	"github.com/Rjected/lit/webui"
 )
 
 /*

@@ -1,10 +1,10 @@
 package qln
 
 import (
-	"github.com/rjected/lit/eventbus"
-	"github.com/rjected/lit/lnp2p"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/eventbus"
+	"github.com/Rjected/lit/lnp2p"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 func makeTmpNewPeerHandler(nd *LitNode) func(eventbus.Event) eventbus.EventHandleResult {

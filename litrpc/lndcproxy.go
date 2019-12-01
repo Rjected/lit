@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/logging"
 	"golang.org/x/net/websocket"
 )
 

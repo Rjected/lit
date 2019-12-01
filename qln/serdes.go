@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/rjected/lit/elkrem"
-	"github.com/rjected/lit/portxo"
+	"github.com/Rjected/lit/elkrem"
+	"github.com/Rjected/lit/portxo"
 
 	"github.com/getlantern/deepcopy"
 )

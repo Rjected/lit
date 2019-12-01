@@ -5,8 +5,8 @@
 package txscript
 
 import (
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/coinparam"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/coinparam"
 )
 
 const (

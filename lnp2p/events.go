@@ -1,10 +1,10 @@
 package lnp2p
 
 import (
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/eventbus"
-	"github.com/rjected/lit/lncore"
-	"github.com/rjected/lit/lndc"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/eventbus"
+	"github.com/Rjected/lit/lncore"
+	"github.com/Rjected/lit/lndc"
 )
 
 // NewPeerEvent is fired when a new peer is registered.

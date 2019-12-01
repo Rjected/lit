@@ -7,10 +7,10 @@ package btcutil
 import (
 	"bytes"
 	"errors"
-	"github.com/rjected/lit/btcutil/base58"
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/btcutil/base58"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/crypto/koblitz"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

@@ -3,7 +3,7 @@ package lnbolt
 import (
 	"fmt"
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/lncore"
+	"github.com/Rjected/lit/lncore"
 	"os"
 	"path"
 )

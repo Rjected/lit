@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rjected/lit/consts"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/elkrem"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/consts"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/elkrem"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/wire"
 )
 
 /*

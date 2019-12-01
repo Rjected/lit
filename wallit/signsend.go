@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/btcutil/txscript"
-	"github.com/rjected/lit/btcutil/txsort"
-	"github.com/rjected/lit/consts"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/txscript"
+	"github.com/Rjected/lit/btcutil/txsort"
+	"github.com/Rjected/lit/consts"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/wire"
 )
 
 // Build a tx, kindof like with SendCoins, but don't sign or broadcast.

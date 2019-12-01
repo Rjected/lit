@@ -3,8 +3,8 @@ package coinparam
 import (
 	"time"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/wire"
 )
 
 // DummyUsdNetParams for DummyUsd fork defines the network parameters for the DummyUsd network.

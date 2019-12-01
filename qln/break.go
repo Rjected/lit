@@ -3,9 +3,9 @@ package qln
 import (
 	"fmt"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/lnutil"
+	"github.com/Rjected/lit/lnutil"
 )
 
 // ------------------------- break

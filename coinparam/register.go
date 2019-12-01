@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/wire"
 )
 
 // Params defines a Bitcoin network by its parameters.  These parameters may be

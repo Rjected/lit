@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/wire"
 )
 
 //id numbers for messages, semi-arbitrary

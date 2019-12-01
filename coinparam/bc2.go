@@ -3,8 +3,8 @@ package coinparam
 import (
 	"time"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/wire"
 )
 
 // BC2NetParams are the parameters for the BC2 test network.

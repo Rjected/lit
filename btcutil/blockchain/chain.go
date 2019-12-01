@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/btcutil/database"
-	"github.com/rjected/lit/btcutil/txscript"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/database"
+	"github.com/Rjected/lit/btcutil/txscript"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/wire"
 )
 
 const (

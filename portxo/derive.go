@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/rjected/lit/btcutil/hdkeychain"
-	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/btcutil/hdkeychain"
+	"github.com/Rjected/lit/crypto/koblitz"
 )
 
 // DerivePrivateKey returns the private key for a utxo based on a master key

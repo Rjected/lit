@@ -5,10 +5,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/wire"
 )
 
 // SPVCon is a SPV connection to a coin daemon.

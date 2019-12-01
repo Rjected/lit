@@ -1,9 +1,9 @@
 package qln
 
 import (
-	"github.com/rjected/lit/lnp2p"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/lnp2p"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 	"sync"
 )
 

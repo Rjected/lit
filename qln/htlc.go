@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/btcutil/txscript"
-	"github.com/rjected/lit/consts"
-	"github.com/rjected/lit/crypto/fastsha256"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/sig64"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/btcutil/txscript"
+	"github.com/Rjected/lit/consts"
+	"github.com/Rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/sig64"
+	"github.com/Rjected/lit/wire"
 )
 
 func (nd *LitNode) OfferHTLC(qc *Qchan, amt uint32, RHash [32]byte, locktime uint32, data [32]byte) error {

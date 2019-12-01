@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/lncore"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/lncore"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 var (

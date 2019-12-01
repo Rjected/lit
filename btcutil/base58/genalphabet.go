@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 )
 
 var (

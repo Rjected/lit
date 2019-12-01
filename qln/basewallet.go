@@ -3,13 +3,13 @@ package qln
 import (
 	"fmt"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/uspv"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/uspv"
+	"github.com/Rjected/lit/wire"
 )
 
 // The UWallet interface are the functions needed to work with the LnNode

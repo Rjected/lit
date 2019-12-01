@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/rjected/lit/btcutil/txscript"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/sig64"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/txscript"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/sig64"
+	"github.com/Rjected/lit/wire"
 )
 
 // SignBreak signs YOUR tx, which you already have a sig for

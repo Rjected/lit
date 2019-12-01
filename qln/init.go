@@ -6,18 +6,18 @@ import (
 	"sync"
 
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/btcutil/hdkeychain"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/db/lnbolt" // TODO Abstract this more.
-	"github.com/rjected/lit/dlc"
-	"github.com/rjected/lit/eventbus"
-	"github.com/rjected/lit/lncore"
-	"github.com/rjected/lit/lnp2p"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/portxo"
-	"github.com/rjected/lit/wallit"
-	"github.com/rjected/lit/watchtower"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/btcutil/hdkeychain"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/db/lnbolt" // TODO Abstract this more.
+	"github.com/Rjected/lit/dlc"
+	"github.com/Rjected/lit/eventbus"
+	"github.com/Rjected/lit/lncore"
+	"github.com/Rjected/lit/lnp2p"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/portxo"
+	"github.com/Rjected/lit/wallit"
+	"github.com/Rjected/lit/watchtower"
 )
 
 // NewLitNode starts up a lit node.  Needs priv key, and a path.

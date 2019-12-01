@@ -3,12 +3,12 @@ package uspv
 import (
 	"path/filepath"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/wire"
 )
 
 // ChainHook is an interface which provides access to a blockchain for the

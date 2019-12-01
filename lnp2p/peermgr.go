@@ -8,15 +8,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rjected/lit/btcutil/hdkeychain"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/eventbus"
-	"github.com/rjected/lit/lncore"
-	"github.com/rjected/lit/lndc"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/nat"
-	"github.com/rjected/lit/portxo"
+	"github.com/Rjected/lit/btcutil/hdkeychain"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/eventbus"
+	"github.com/Rjected/lit/lncore"
+	"github.com/Rjected/lit/lndc"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/nat"
+	"github.com/Rjected/lit/portxo"
 )
 
 type privkey *koblitz.PrivateKey

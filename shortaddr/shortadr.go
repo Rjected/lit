@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/crypto/fastsha256"
 )
 
 /*

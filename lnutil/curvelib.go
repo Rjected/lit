@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/crypto/koblitz"
 )
 
 // PrivKeyAddBytes adds bytes to a private key.

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 )
 
 func TestBusSimple(t *testing.T) {

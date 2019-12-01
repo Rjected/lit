@@ -3,7 +3,7 @@ package dlc
 import (
 	"fmt"
 
-	"github.com/rjected/lit/lnutil"
+	"github.com/Rjected/lit/lnutil"
 )
 
 const COINTYPE_NOT_SET = ^uint32(0) // Max Uint

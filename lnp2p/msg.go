@@ -1,8 +1,8 @@
 package lnp2p
 
 import (
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 // FIXME This is a stub function that just calls out to the lnutil lib for later.

@@ -9,12 +9,12 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/crypto/fastsha256"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/sig64"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/crypto/fastsha256"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/sig64"
 )
 
 // RCRequestAuthArgs contains the required parameters

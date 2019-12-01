@@ -5,9 +5,9 @@ import (
 	"strconv"
 
 	"github.com/fatih/color"
-	"github.com/rjected/lit/litrpc"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/litrpc"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 var sendCommand = &Command{

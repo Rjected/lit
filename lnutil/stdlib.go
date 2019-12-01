@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 )
 
 // I shouldn't even have to write these...

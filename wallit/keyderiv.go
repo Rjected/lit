@@ -1,10 +1,10 @@
 package wallit
 
 import (
-	"github.com/rjected/lit/btcutil"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/logging"
-	"github.com/rjected/lit/portxo"
+	"github.com/Rjected/lit/btcutil"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/logging"
+	"github.com/Rjected/lit/portxo"
 )
 
 /*

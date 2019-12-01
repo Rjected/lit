@@ -10,10 +10,10 @@ import (
 	"github.com/chzyer/readline"
 	"github.com/fatih/color"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/rjected/lit/crypto/koblitz"
-	"github.com/rjected/lit/litrpc"
-	"github.com/rjected/lit/lnutil"
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/litrpc"
+	"github.com/Rjected/lit/lnutil"
+	"github.com/Rjected/lit/logging"
 )
 
 /*

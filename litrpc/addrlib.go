@@ -3,12 +3,12 @@ package litrpc
 import (
 	"strings"
 
-	"github.com/rjected/lit/logging"
+	"github.com/Rjected/lit/logging"
 
-	"github.com/rjected/lit/bech32"
-	"github.com/rjected/lit/btcutil/base58"
-	"github.com/rjected/lit/coinparam"
-	"github.com/rjected/lit/lnutil"
+	"github.com/Rjected/lit/bech32"
+	"github.com/Rjected/lit/btcutil/base58"
+	"github.com/Rjected/lit/coinparam"
+	"github.com/Rjected/lit/lnutil"
 )
 
 /*

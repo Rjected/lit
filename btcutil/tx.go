@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/wire"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/wire"
 )
 
 // TxIndexUnknown is the value returned for a transaction index that is unknown.

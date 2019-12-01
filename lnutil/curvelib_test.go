@@ -3,8 +3,8 @@ package lnutil
 import (
 	"testing"
 
-	"github.com/rjected/lit/btcutil/chaincfg/chainhash"
-	"github.com/rjected/lit/crypto/koblitz"
+	"github.com/Rjected/lit/btcutil/chaincfg/chainhash"
+	"github.com/Rjected/lit/crypto/koblitz"
 )
 
 var (
