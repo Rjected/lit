@@ -39,7 +39,7 @@ func Announce(priv *koblitz.PrivateKey, port int, litadr string, trackerURL stri
 		Timeout: time.Second * 4, // 4+4 to accomodate the 10s RPC timeout
 	}
 	strport := ":" + strconv.Itoa(port)
-	resp, err := client.Get("https://ipv4.myexternalip.com/raw")
+	resp, err := client.Get("http://whatismyip.akamai.com/")
 	if err != nil {
 		return err
 	}
